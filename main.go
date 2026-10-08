@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sruja/dock-agent/pkg/agent"
+	"github.com/Abh-igyan/dock-agent/pkg/agent"
 )
 
 func main() {

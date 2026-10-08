@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/sruja/dock-agent/pkg/docker"
-	"github.com/sruja/dock-agent/pkg/llm"
+	"github.com/Abh-igyan/dock-agent/pkg/docker"
+	"github.com/Abh-igyan/dock-agent/pkg/llm"
 )
 
 type Loop struct {
