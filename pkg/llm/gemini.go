@@ -20,7 +20,7 @@ func NewGeminiClient(ctx context.Context, apiKey string) (*GeminiClient, error) 
 		return nil, fmt.Errorf("failed to create Gemini client: %v", err)
 	}
 
-	model := client.GenerativeModel("gemini-2.5-pro") // Use latest capable model
+	model := client.GenerativeModel("gemini-3.1-pro-preview") // Use latest capable model
 	model.SetTemperature(0.2) // Low temp for more deterministic code
 
 	return &GeminiClient{
