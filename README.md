@@ -23,7 +23,9 @@ The core architecture follows a deterministic Observe-Diagnose-Act loop:
 3. **Build:** Hooks directly into your local Docker daemon to test the build.
 4. **Fix:** If the build fails, the error logs are fed back to the LLM for a targeted patch. The loop repeats until success.
 
-*(Insert Demo GIF here! We recommend using [vhs](https://github.com/charmbracelet/vhs) to record a failing build auto-healing itself!)*
+<p align="center">
+  <img src="demo.gif" alt="DockAgent auto-healing a broken Docker build" width="800">
+</p>
 
 ## 🛠️ Installation
 
