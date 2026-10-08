@@ -40,3 +40,4 @@ func (b *Builder) Build(dockerfileContent string) error {
 
 	return nil
 }
+
